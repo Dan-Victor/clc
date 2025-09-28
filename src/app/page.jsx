@@ -74,7 +74,7 @@ const impacts = [
 
      <section className='w-full h-auto text-center text-[#4B5564] flex justify-center items-center flex-col bg-[#ffff] py-[72px]'>
        <h2 className="bg-[#edf0fc] text-[#0f4082] text-base md:text-[20px] rounded-full shadow-sm py-2.5 px-2.5 font-medium  ">Our Mission</h2>
-       <h1 className='pt-6 pb-4 md:text-[40px] text-[30px]  text-[#0F4082] text-center font-bold'>Our Story, Our Mission</h1>
+       <h1 className='pt-6 pb-4 md:text-[40px] text-[24px]  text-[#0F4082] text-center font-bold'>Our Story, Our Mission</h1>
        <p className='lg:w-[55%] w-[90%] h-auto'>The Canada Community and Leadership Center was founded in 2021 to address the specific needs of Canadians while building bridges across diverse communities.</p>
        <div className="grid xl:grid-cols-2   sm:grid-cols-1 mt-8 gap-6">
         <div className='  md:w-[620px] w-[330px] h-auto  md:h-[404px] py-8 px-6 text-white bg-[#0f4082] rounded-[12px]'>
@@ -119,7 +119,7 @@ const impacts = [
        </div>
       </section>
 
-     <section className='py-[72px] px-[25px] flex flex-col justify-center items-center'>
+     <section className='py-[72px] px-[20px] flex flex-col justify-center items-center'>
         <h2 className='text-[#0F4082] bg-[#edf0fc] rounded-full shadow-sm py-2.5 px-2.5 font-medium md:text-[20px]'>Our Mission</h2>
         <h1 className='md:text-[40px] text-[30px] text-[#0F4082] text-center font-bold pt-6 pb-4'>Voices of Change</h1>
         <p className='text-[#4B5564] text-center text-[18px]'>Hear from the leaders who are making a difference in their communities every day.</p>

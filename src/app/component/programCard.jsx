@@ -21,7 +21,7 @@ const ProgramCard = () => {
           <div
             ref={ref}
             key={index}
-            className="flex flex-col justify-center w-[330px] h-auto py-8 bg-[#3360A0] rounded-[16px] items-center"
+            className="flex flex-col justify-center md:w-[330px] w-[320px] h-auto py-8 bg-[#3360A0] rounded-[16px] items-center"
           >
             <h1 className="text-[40px] text-center mt-3 font-bold text-[#AD8E63]">
               {inView ? <CountUp end={card.number} duration={2.5} /> : 0}

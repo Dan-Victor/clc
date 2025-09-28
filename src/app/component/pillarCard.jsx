@@ -79,7 +79,7 @@ const PillarCard = () => {
       {Pillars.map((pillar, index) => (
         <div
           key={index}
-          className="flex flex-col justify-center items-center w-[338px] h-auto px-6 rounded-[12px] py-8 border-2 border-[#AD8E63]"
+          className="flex flex-col justify-center items-center md:w-[338px] w-[328px] h-auto px-6 rounded-[12px] py-8 border-2 border-[#AD8E63]"
         >
           <Image src={pillar.img} alt={pillar.title} width={56} height={56} />
           <h2 className="text-[#252528] font-bold text-[24px] mt-3">{pillar.title}</h2>
