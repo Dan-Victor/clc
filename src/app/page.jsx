@@ -64,7 +64,6 @@ const impacts = [
       <p className='text-[#4B5564] text-[18px] pb-9 text-center w-[95%] lg:w-[70%] xl:w-[60%] '>Everything we do is built on these four foundational pillars that guide our mission to empower communities and shape leaders across Canada</p>
       <PillarCard/>
      </section>
-
      <section className='w-full h-auto text-center text-[#4B5564] flex justify-center items-center flex-col bg-[#F9FAFB] py-[72px]'>
       <h2 className='bg-[#edf0fc] text-[#0f4082] md:text-[20px] text-base rounded-full shadow-sm py-2.5 px-2.5 font-medium'>Featured Programs</h2>
       <h1 className='pt-6 pb-4 md:text-[40px] text-[30px] text-[#0F4082] text-center font-bold'>Transformative Programs</h1>

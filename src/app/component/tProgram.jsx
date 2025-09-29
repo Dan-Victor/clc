@@ -6,12 +6,13 @@ import Link from 'next/link';
 const PModalCard = ({ modal, setIsOpenProp }) => {
   return (
     <div
-      className="fixed font-mont inset-0 mx-auto w-full min-h-screen bg-black/70 flex justify-center items-center z-[1000]"
+      className="fixed font-mont inset-0 mx-auto w-full min-h-screen bg-black/70 flex justify-center px-6 items-center z-[1000]"
       onClick={() => setIsOpenProp(null)} // close on background click
     >
       {/* Modal content */}
       <div
-        className="h-auto w-[720px] text-[#4B5564] text-left rounded-[12px] bg-white py-8 px-6"
+        className=" w-full max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-3xl 
+                   max-h-[70vh] md:max-h-[85vh] overflow-y-auto scrollbar-hide text-[#4B5564] text-left rounded-[12px] bg-white py-8 px-6"
         onClick={(e) => e.stopPropagation()} // prevent closing when clicking inside
       >
         <h1 className="text-[#0F4082] font-bold text-[32px]">{modal.title}</h1>
@@ -24,12 +25,12 @@ const PModalCard = ({ modal, setIsOpenProp }) => {
                   </ul>
             ))
         }
-       <div className='flex justify-center items-start text-left'>
-        <div className='w-[50%]'>
+       <div className='flex md:flex-row flex-col justify-center items-start text-left'>
+        <div className=' md:w-[50%] w-[80%]'>
             <h1 className='text-[#0F4082] font-bold pt-6 text-[24px]'>Eligibility</h1>
             <p className='h-auto w-[95%]'>{modal.eligibility}</p>
         </div>
-        <div className=' w-[50%]'>
+        <div className=' md:w-[50%] w-[80%]'>
             <h1 className='text-[#0F4082] font-bold pt-6 text-[24px]'>Duration</h1>
             <p className='h-auto w-[100%]'>{modal.duration}</p>
         </div>
